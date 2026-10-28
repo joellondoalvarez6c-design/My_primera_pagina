@@ -1,0 +1,64 @@
+  <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad Java</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Mi Sitio Web</h1>
+    </header>
+
+    <!-- Contenido Principal -->
+    <main class="contenedor">
+        
+        <!-- Nombre y Descripción -->
+        <h2>Joel Londoño Alvarez</h2>
+        <p class="descripcion">
+            Hola, soy el amigo de la derecha de Linux, soy un melomano (Es una persona que siente una pasión intensa, profunda y casi obsesiva por la música.). Soy portero de futbol sala y salón, pertenezco al club Futsal Bello y a la Seleccion Bello. Vivo en Bello con mis abuelos maternos, mis papás, mi hermano y mi perra. Mido 1.75 metros y peso 71kg y voy al gym.
+        </p>
+
+        <!-- Juego: Adivina mi número favorito -->
+        <section class="seccion-juego">
+            <h3>Adivina mi número favorito</h3>
+            <input type="number" id="numeroInput" placeholder="Ingresa un número">
+            <p id="mensajeNumero"></p>
+        </section>
+
+        <!-- Selector de Gustos -->
+        <section class="seccion-selector">
+            <label for="gustosSelect"><strong>Selecciona una opción:</strong></label>
+            <select id="gustosSelect">
+                <option value=""> Selecciona </option>
+                <option value="futbol">Mi Posicion Futbol</option>
+                <option value="musica">Mi Cantante Fav</option>
+                <option value="tenis">Mi Estilo</option>
+            </select>
+
+            <p id="textoGusto"></p>
+            
+            <div class="caja-imagen">
+                <img id="imagenGusto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqbe6jvsgE9kfSsPRKY8PSor7ZN7pXjrngVWl5TjNsVg&s=10" alt="Selecciona una opción">
+            </div>
+        </section>
+
+        <!-- Botón de Alerta -->
+        <section class="seccion-boton">
+            <button id="botonAlerta">CLICKEAME</button>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 | SENA | Joel Londoño Alvarez</p>
+    </footer>
+
+    <!-- Archivo JS -->
+    <script src="js/app.js"></script>
+</body>
+</html>
